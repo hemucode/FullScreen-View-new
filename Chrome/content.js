@@ -1,9 +1,48 @@
-console.log(`[The Lights Off v${chrome.runtime.getManifest().version}]`);
+domReady(() => {
+   ZoomFun()
+})
+
 /**
- * @returns Promise
+ * @returns Codehemu
  */
-function inject() {
-  return chrome.runtime.sendMessage({
-    action: "INSERT_JS"
+
+
+function domReady (callback) {
+  if (document.readyState === 'complete') {
+    callback()
+  } else {
+    window.addEventListener('load', callback, false);
+  }
+}
+
+/**
+ * @returns Codehemu
+ */
+
+async function ZoomFun(){
+  var a = new Promise(function(resolve, reject){
+      chrome.storage.sync.get({"zoom": "100"}, function(options){
+          resolve(options.zoom);
+      })
   });
-}inject();
+  const zooms = await a;
+  if (zooms && document.body.style){
+    document.body.style.zoom = zooms+"%";
+  }
+
+}
+
+/**
+ * @returns Codehemu
+ */
+
+chrome.storage.onChanged.addListener(async (changes, namespace) => {
+  if (namespace !== "sync") return;
+  if (changes.zoom) {
+    if (changes.zoom.newValue) {
+      ZoomFun();
+    }
+  }
+});
+
+

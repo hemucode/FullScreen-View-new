@@ -107,9 +107,7 @@ z-index: 1;
   margin: 0;
   background-color: transparent;
 }
-/* .fullScreenbuttoncodehemu:hover{
-  background-color: rgba(0, 195, 255, 0.5);
-} */
+
 .codehemu_text{
     width: 6px;
     height: 38px;
@@ -127,14 +125,44 @@ z-index: 1;
 }
 
 .codehemu_button svg{
-  fill:rgb(0, 195, 255);margin-top: 14px;
-}
-.reset svg:hover{
-  transform: rotate(90deg)
-  
+  fill: rgb(0, 195, 255);
+  margin-top: 14px;
 }
 .codehemu_button svg:hover{
   width: 18px;
   height: 18px;
   
+}
+.mode:hover{
+  fill: #ffc700;
+}
+.print:hover{
+  fill: #3800ff;
+}
+.source:hover{
+  fill: #ff00a5;
+}
+.tab:hover{
+  fill: #ff0065;
+}
+.fullscreen:hover{
+  fill: #ff2600
+}
+.reset:hover{
+  fill: #4a4ec3;
+  transform: rotate(90deg);
+}
+.hidden {display:none;}
+
+.customMenu { font-weight:bold; color:#f00; }
+
+#contextMenu {
+  position:absolute; 
+  border:2px double #333; 
+  width:150px; 
+  height:175px;
+  top:20%;
+  left:30%;
+  background-color:#e0e0e0;
+  box-shadow:5px 5px #909090;
 }

@@ -1,9 +1,9 @@
 {
    "action": {
       "default_icon": {
-         "128": "data/icons/icon-128.png",
-         "32": "data/icons/icon-32.png",
-         "38": "data/icons/icon-38.png"
+         "128": "data/icons/icon-128-d.png",
+         "32": "data/icons/icon-32-d.png",
+         "38": "data/icons/icon-38-d.png"
       },
       "default_title": "__MSG_extNikName__"
    },
