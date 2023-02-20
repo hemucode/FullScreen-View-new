@@ -3,11 +3,9 @@
       "default_icon": {
          "128": "data/icons/icon-128.png",
          "32": "data/icons/icon-32.png",
-         "38": "data/icons/icon-38.png",
-         "512": "data/icons/icon-512.png"
+         "38": "data/icons/icon-38.png"
       },
-      "default_title": "__MSG_extNikName__",
-      "default_popup": "data/interface/index.html?popup"
+      "default_title": "__MSG_extNikName__"
    },
    "background": {
       "service_worker": "background.js"
@@ -15,18 +13,17 @@
    "content_scripts": [ {
       "all_frames": true,
       "js": [ "content.js" ],
-      "matches": [ "\u003Call_urls>" ],
+      "matches": [ "https://*/*","http://*/*" ],
       "run_at": "document_start"
    } ],
    "default_locale": "en",
    "description": "__MSG_extShortDesc__",
-   "host_permissions": [ "\u003Call_urls>" ],
+   "host_permissions": [ "https://*/*","http://*/*"],
    "homepage_url": "https://www.downloadhub.cloud/2023/01/lights.html",
    "icons": {
       "128": "data/icons/icon-128.png",
       "32": "data/icons/icon-32.png",
-      "38": "data/icons/icon-38.png",
-      "512": "data/icons/icon-512.png"
+      "38": "data/icons/icon-38.png"
    },
    "manifest_version": 3,
    "name": "__MSG_extName__",

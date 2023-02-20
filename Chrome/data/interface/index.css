@@ -60,6 +60,9 @@ input[type=range] {
     perspective-origin: 50% -121%;
     transform: skew(62deg);
 }
+input[type=range]:hover{
+  background-color: #c6f2ff;
+}
 
 input[type=range]:focus{
   outline:none;

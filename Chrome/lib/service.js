@@ -13,9 +13,23 @@
 //     });
 // });
 // `${request.rule}.css`
-
+// if(domains.contains(request.url)){
+//     chrome.action.setPopup({
+//         popup: "data/interface/index.html"
+//     });
+// }
+//else{
+//     chrome.browserAction.setPopup({
+//         popup: "nottracking.html"
+//     });
+//}
 chrome.runtime.onMessage.addListener(async (request, sender) => {
   switch (request.action) {
+    case "INSERT_JS": {
+      chrome.action.setPopup({
+        popup: "data/interface/index.html"
+      });
+    }
     case "INSERT_FULL": {
       chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
       var activeTab = tabs[0];
@@ -25,6 +39,7 @@ chrome.runtime.onMessage.addListener(async (request, sender) => {
           }); 
       });
     }
+
   }
 });
 
