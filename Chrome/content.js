@@ -2,9 +2,8 @@ console.log(`[The Lights Off v${chrome.runtime.getManifest().version}]`);
 /**
  * @returns Promise
  */
-function injectStyles() {
+function inject() {
   return chrome.runtime.sendMessage({
     action: "INSERT_JS"
   });
-}
-injectStyles();
+}inject();
