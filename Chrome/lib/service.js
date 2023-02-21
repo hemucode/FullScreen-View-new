@@ -222,10 +222,10 @@ async function contextClick(info, tab) {
     chrome.tabs.create({url:`https://www.downloadhub.cloud/2022/12/ad-blocker.html`})
   }
   if (menuItemId == '3') {
-    chrome.tabs.create({url:`https://www.downloadhub.cloud/2023/01/lights.html?reason=support`})
+    chrome.tabs.create({url:`https://www.downloadhub.cloud/2023/02/FullScreen.html?reason=support`})
   }
   if (menuItemId == '4') {
-    chrome.tabs.create({url:`https://www.downloadhub.cloud/2023/01/lights.html#report`})
+    chrome.tabs.create({url:`https://www.downloadhub.cloud/2023/02/FullScreen.html#report`})
   }
 }
 
