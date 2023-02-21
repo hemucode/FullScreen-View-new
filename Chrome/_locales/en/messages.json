@@ -5,7 +5,28 @@
    "extNikName": {
       "message": "Full Screen"
    },
+   "reset": {
+      "message": "Reset"
+   },
+   "devoloper": {
+      "message": "codehemu"
+   },
+    "fullscreen": {
+      "message": "Full Screen"
+   },
+    "source": {
+      "message": "Source Code"
+   },
+    "tab": {
+      "message": "Duplicate Tab"
+   },
+    "print": {
+      "message": "Print"
+   },
+    "mode": {
+      "message": "Dark Mode"
+   },   
    "extShortDesc": {
-      "message": ""
+      "message": "Fullscreen, #1 Zoom and Dark Mode more options will get in one"
    }
 }

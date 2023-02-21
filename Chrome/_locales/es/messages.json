@@ -1,8 +1,32 @@
 {
    "extName": {
-      "message": "The Lights Off"
+      "message": "Pantalla completa para Chrome"
    },
+   "extNikName": {
+      "message": "Pantalla completa"
+   },
+   "reset": {
+      "message": "Reiniciar"
+   },
+   "devoloper": {
+      "message": "codehemu"
+   },
+    "fullscreen": {
+      "message": "Pantalla completa"
+   },
+    "source": {
+      "message": "Código fuente"
+   },
+    "tab": {
+      "message": "Pestaña duplicada"
+   },
+    "print": {
+      "message": "Imprimir"
+   },
+    "mode": {
+      "message": "Modo oscuro"
+   },   
    "extShortDesc": {
-      "message": "You can view the YouTube™ videos and Other website as though you were in a movie theatre."
+      "message": "Pantalla completa, #1 zoom y modo oscuro más opciones entrarán en una"
    }
 }
