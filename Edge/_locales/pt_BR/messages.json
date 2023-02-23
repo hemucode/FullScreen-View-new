@@ -1,0 +1,32 @@
+{
+   "extName": {
+      "message": "Tela cheia para o Edge"
+   },
+   "extNikName": {
+      "message": "Tela cheia"
+   },
+   "reset": {
+      "message": "Reiniciar"
+   },
+   "devoloper": {
+      "message": "codehemu"
+   },
+    "fullscreen": {
+      "message": "Tela cheia"
+   },
+    "source": {
+      "message": "Código fonte"
+   },
+    "tab": {
+      "message": "Guia duplicada"
+   },
+    "print": {
+      "message": "Imprimir"
+   },
+    "mode": {
+      "message": "Modo escuro"
+   },   
+   "extShortDesc": {
+      "message": "Tela cheia, #1 zoom e modo escuro, mais opções entrarão em um"
+   }
+}

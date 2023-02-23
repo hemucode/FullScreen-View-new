@@ -1,0 +1,32 @@
+{
+   "extName": {
+      "message": "Pantalla completa para Opera"
+   },
+   "extNikName": {
+      "message": "Pantalla completa"
+   },
+   "reset": {
+      "message": "Reiniciar"
+   },
+   "devoloper": {
+      "message": "codehemu"
+   },
+    "fullscreen": {
+      "message": "Pantalla completa"
+   },
+    "source": {
+      "message": "Código fuente"
+   },
+    "tab": {
+      "message": "Pestaña duplicada"
+   },
+    "print": {
+      "message": "Imprimir"
+   },
+    "mode": {
+      "message": "Modo oscuro"
+   },   
+   "extShortDesc": {
+      "message": "Pantalla completa, #1 zoom y modo oscuro más opciones entrarán en una"
+   }
+}

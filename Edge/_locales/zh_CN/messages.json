@@ -1,0 +1,32 @@
+{
+   "extName": {
+      "message": "全屏 for Edge"
+   },
+   "extNikName": {
+      "message": "全屏"
+   },
+   "reset": {
+      "message": "重置"
+   },
+   "devoloper": {
+      "message": "codehemu"
+   },
+    "fullscreen": {
+      "message": "全屏"
+   },
+    "source": {
+      "message": "源代码"
+   },
+    "tab": {
+      "message": "重复选项卡"
+   },
+    "print": {
+      "message": "打印"
+   },
+    "mode": {
+      "message": "黑暗模式"
+   },   
+   "extShortDesc": {
+      "message": "全屏，变焦和暗模式将获得更多选择"
+   }
+}

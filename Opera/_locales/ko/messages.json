@@ -1,0 +1,32 @@
+{
+   "extName": {
+      "message": "전체화면 for Opera"
+   },
+   "extNikName": {
+      "message": "전체 화면"
+   },
+   "reset": {
+      "message": "초기화"
+   },
+   "devoloper": {
+      "message": "codehemu"
+   },
+    "fullscreen": {
+      "message": "전체 화면"
+   },
+    "source": {
+      "message": "소스 코드"
+   },
+    "tab": {
+      "message": "중복 탭"
+   },
+    "print": {
+      "message": "인쇄"
+   },
+    "mode": {
+      "message": "다크 모드"
+   },   
+   "extShortDesc": {
+      "message": "전체 화면, #1 줌 및 다크 모드 더 많은 옵션이 하나가됩니다."
+   }
+}

@@ -1,0 +1,168 @@
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+html,body {
+  color: #111;
+  font-family:sans-serif !important;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  background: #f4f4f4;
+  height:38px;
+  width: 400px;
+
+}
+
+#grids{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+#fullscreen{
+  width: 80px;
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+label[for=range] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  -webkit-transform: skew(-62deg);
+}
+
+label[for=range]:after {
+content: "";
+position: absolute;
+bottom: 11px;
+left: 38px;
+height: 9px;
+width: 278px;
+-webkit-transform: skew(62deg);
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    background-color: transparent;
+    width: 200px;
+    height: 38px;
+    overflow: hidden;
+    margin: 0;
+    margin-left: -20px;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50% 300px;
+    perspective-origin: 50% -121%;
+    transform: skew(62deg);
+}
+input[type=range]:hover{
+  background-color: #c6f2ff;
+}
+
+input[type=range]:focus{
+  outline:none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  position:relative;
+     -webkit-appearance: none;
+    cursor:pointer;
+    background-color: transparent;
+    width: 30px;
+    height: 18px;
+    box-shadow: 1px 5px 10px -1px rgba(0, 0, 0,0.2),
+    -25px 0 0 10px rgba(0, 195, 255, 0.5),
+    -75px 0 0 10px rgba(0, 195, 255, 0.5),
+    -125px 0 0 10px rgba(0, 195, 255, 0.5),
+    -175px 0 0 10px rgba(0, 195, 255, 0.5),
+    -225px 0 0 10px rgba(0, 195, 255, 0.5),
+    -275px 0 0 10px rgba(0, 195, 255, 0.5),
+    -330px 0 0 10px rgba(0, 195, 255, 0.5);
+  z-index:2;
+}
+
+input[type=range]:before {
+content: "";
+position: absolute;
+background: rgb(190, 190, 190);
+box-shadow:0 1px 0 rgb(235, 235, 235);
+width: 283px;
+left: 0;
+height: 1px;
+top: 29px;
+z-index: 1;
+}
+.codehemu_range{
+  width: 200px;
+}
+
+.codehemu_button{
+  width: 7px;
+  height: 38px;
+  margin: 0;
+  background-color: transparent;
+}
+
+.codehemu_text{
+    width: 6px;
+    height: 38px;
+    margin: 0;
+    background-color: transparent;
+}
+.codehemu_text span{
+  width: 38px;
+    padding-top: -21px;
+    /* padding: 5px; */
+    height: 38px;
+    margin-top: 15px;
+    margin-left: -15px;
+    position: absolute;
+}
+
+.codehemu_button svg{
+  fill: rgb(0, 195, 255);
+  margin-top: 14px;
+}
+.codehemu_button svg:hover{
+  width: 18px;
+  height: 18px;
+  
+}
+.mode:hover{
+  fill: #ffc700;
+}
+.print:hover{
+  fill: #3800ff;
+}
+.source:hover{
+  fill: #ff00a5;
+}
+.tab:hover{
+  fill: #ff0065;
+}
+.fullscreen:hover{
+  fill: #ff2600
+}
+.reset:hover{
+  fill: #4a4ec3;
+  transform: rotate(90deg);
+}
+.hidden {display:none;}
+
+.customMenu { font-weight:bold; color:#f00; }
+
+#contextMenu {
+  position:absolute; 
+  border:2px double #333; 
+  width:150px; 
+  height:175px;
+  top:20%;
+  left:30%;
+  background-color:#e0e0e0;
+  box-shadow:5px 5px #909090;
+}

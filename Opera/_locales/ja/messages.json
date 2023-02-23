@@ -1,0 +1,32 @@
+{
+   "extName": {
+      "message": "全画面表示 for Opera"
+   },
+   "extNikName": {
+      "message": "全画面表示"
+   },
+   "reset": {
+      "message": "リセット"
+   },
+   "devoloper": {
+      "message": "codehemu"
+   },
+    "fullscreen": {
+      "message": "全画面表示"
+   },
+    "source": {
+      "message": "ソースコード"
+   },
+    "tab": {
+      "message": "タブの複製"
+   },
+    "print": {
+      "message": "印刷"
+   },
+    "mode": {
+      "message": "ダークモード"
+   },   
+   "extShortDesc": {
+      "message": "フルスクリーン、＃1ズーム、ダークモードのオプションは1つになります"
+   }
+}
